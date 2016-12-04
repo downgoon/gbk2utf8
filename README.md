@@ -6,6 +6,10 @@
 
 for help, run ``java -jar gbk2utf8-0.0.1-SNAPSHOT-all.jar``
 
+**NOTE**
+
+a precompiled package is available at [v0.1.0 Releases](https://github.com/downgoon/gbk2utf8/releases/tag/v0.1.0), you can go to this page and download it directly.
+
 ## how to build
 
 	git clone https://github.com/downgoon/gbk2utf8.git
