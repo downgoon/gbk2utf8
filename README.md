@@ -22,3 +22,16 @@ a precompiled package is available at [v0.1.0 Releases](https://github.com/downg
 * **recursive** converting all necessary files in the specified path
 * **encoding detective** do nothing to files not encoded in GBK in specified path 
 
+## 反馈问题
+
+如果您有不清楚的地方或更好的建议，请在**Issue**中给我们反馈。
+操作步骤如下：
+
+1. 找到**Issue**入口
+![Issue入口](https://cloud.githubusercontent.com/assets/23731186/20863916/7075a704-ba17-11e6-8d18-3670c59c5781.png)
+
+2. 新建**Issue**
+![新建Issue](https://cloud.githubusercontent.com/assets/23731186/20863922/beb848ae-ba17-11e6-93e9-4a6278d8816a.png)
+
+3. 别忘了最好设置一个**Issue**类型
+![反馈问题](https://cloud.githubusercontent.com/assets/23731186/20863944/254c597a-ba18-11e6-9df7-d6f23ca1cf7e.png)
