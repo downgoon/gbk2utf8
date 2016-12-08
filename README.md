@@ -18,3 +18,8 @@ for help, run ``java -jar gbk2utf8-0.0.1-SNAPSHOT-all.jar``
 * **recursive** converting all necessary files in the specified path
 * **encoding detective** do nothing to files not encoded in GBK in specified path 
 
+---
+
+## package rename  (a new tool)
+
+``java -cp ./gbk2utf8-0.0.1-SNAPSHOT-all.jar io.downgoon.tools.PackageRename $src-gbk-path $dst-utf8-path <src-path> <dst-path> <original-package-prefix> <alternative-package-prefix>``
