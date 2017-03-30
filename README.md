@@ -32,7 +32,7 @@ $ gbk2utf8 version
 **NOTE**
 >``gbk2utf8-0.1.1.pkg`` will be installed in /usr/local/gbk2utf8 directory and a softlink /usr/local/bin/gbk2utf8 (linking to /usr/local/gbk2utf8/bin/gbk2utf8) will be created. 
 
-[installing gbk2utf8-0.1.1.pkg](https://cloud.githubusercontent.com/assets/23731186/24492177/081a1266-155d-11e7-91bd-207fd2c9a2f7.png)
+![installing gbk2utf8-0.1.1.pkg](https://cloud.githubusercontent.com/assets/23731186/24492177/081a1266-155d-11e7-91bd-207fd2c9a2f7.png)
 
 
 
