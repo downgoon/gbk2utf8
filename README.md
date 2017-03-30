@@ -2,13 +2,40 @@
 
 ## how to run
 
-``java -jar gbk2utf8-0.0.1-SNAPSHOT-all.jar $src-gbk-path $dst-utf8-path``
+### for cross platform
 
-for help, run ``java -jar gbk2utf8-0.0.1-SNAPSHOT-all.jar``
+``java -jar gbk2utf8-0.1.1-SNAPSHOT-all.jar $src-gbk-path $dst-utf8-path``
+
+for help, run ``java -jar gbk2utf8-0.1.1-SNAPSHOT-all.jar``
 
 **NOTE**
 
 a precompiled package is available at [v0.1.1 Releases](https://github.com/downgoon/gbk2utf8/releases/tag/v0.1.1), you can go to this page and download it directly.
+
+### for Mac platform
+
+- download [gbk2utf8-0.1.1.pkg](https://github.com/downgoon/gbk2utf8/releases/download/v0.1.1/gbk2utf8-0.1.1.pkg)
+- double click it and install
+- run command
+
+```
+➜  ~ gbk2utf8        # converting from gbk2 to utf8
+Usage: Gbk2Utf8 <src-gbk-path> <dst-utf8-path> [include-extension (default 'java')]
+➜  ~ gbk2utf8 convert
+Usage: Gbk2Utf8 <src-gbk-path> <dst-utf8-path> [include-extension (default 'java')]
+➜  ~ gbk2utf8 pkgreanme   # package renaming
+Usage: Gbk2Utf8 <src-gbk-path> <dst-utf8-path> [include-extension (default 'java')]
+➜  ~ gbk2utf8 version
+0.1.1
+```
+
+**NOTE**
+
+
+
+
+
+-----
 
 ## how to build
 
