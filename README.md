@@ -12,7 +12,7 @@ for help, run ``java -jar gbk2utf8-0.1.1-SNAPSHOT-all.jar``
 
 >a precompiled package is available at [v0.1.1 Releases](https://github.com/downgoon/gbk2utf8/releases/tag/v0.1.1), you can go to this page and download it directly.
 
-### for Mac platform
+### for Mac platform  (64bit)
 
 - download [gbk2utf8-0.1.1.pkg](https://github.com/downgoon/gbk2utf8/releases/download/v0.1.1/gbk2utf8-0.1.1.pkg)
 - double click it and install
@@ -33,6 +33,32 @@ $ gbk2utf8 version
 >``gbk2utf8-0.1.1.pkg`` will be installed in /usr/local/gbk2utf8 directory and a softlink /usr/local/bin/gbk2utf8 (linking to /usr/local/gbk2utf8/bin/gbk2utf8) will be created. 
 
 ![installing gbk2utf8-0.1.1.pkg](https://cloud.githubusercontent.com/assets/23731186/24492177/081a1266-155d-11e7-91bd-207fd2c9a2f7.png)
+
+
+### for Ubuntu platform  (64bit)
+
+- download
+```
+wget  https://github.com/downgoon/gbk2utf8/releases/download/v0.1.1/gbk2utf8_0.1.1_armhf.deb
+```
+
+- install
+```
+dpkg -i gbk2utf8_0.1.1_armhf.deb
+```
+
+- run
+
+```
+$ gbk2utf8        # converting from gbk2 to utf8
+Usage: Gbk2Utf8 <src-gbk-path> <dst-utf8-path> [include-extension (default 'java')]
+$ gbk2utf8 convert
+Usage: Gbk2Utf8 <src-gbk-path> <dst-utf8-path> [include-extension (default 'java')]
+$ gbk2utf8 pkgreanme   # package renaming
+Usage: Gbk2Utf8 <src-gbk-path> <dst-utf8-path> [include-extension (default 'java')]
+$ gbk2utf8 version
+0.1.1
+```
 
 
 
