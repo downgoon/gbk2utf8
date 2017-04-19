@@ -1,5 +1,7 @@
 # converting files encoding in some path from GBK to UTF8
 
+[![Join the chat at https://gitter.im/gbk2utf8/Lobby](https://badges.gitter.im/gbk2utf8/Lobby.svg)](https://gitter.im/gbk2utf8/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## how to run
 
 ### for any platform
