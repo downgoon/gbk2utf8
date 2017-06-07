@@ -21,19 +21,39 @@ public class PackageRenameTest {
 
 	@Test
 	public void testReplacement() {
-		String path = "src/main/java/com/example/tools/Hello.java"; // case-1
+		
+		// case-1 on Linux/Mac
+		String originPathLinux = "src/main/java/com/example/tools/Hello.java"; 
+		String expectedPathLinux = "src/main/java/io/downgoon/tools/Hello.java";
+		
+		// case-1 on Windows
+		String originPathWindows = "src\\main\\java\\com\\example\\tools\\Hello.java"; 
+		String expectedPathWindows = "src\\main\\java\\io\\downgoon\\tools\\Hello.java";
+		
+		if ( isWindowOS() ) {
+			String pathChangedWindows = replacement.replacePathName(originPathWindows);
+			Assert.assertEquals(expectedPathWindows, pathChangedWindows);
+			
+		} else {
+			String pathChangedLinux = replacement.replacePathName(originPathLinux);
+			Assert.assertEquals(expectedPathLinux, pathChangedLinux);
+		}
+		
+		
 		String importCode = "import com.example.tools.Hello"; // case-2
 		String newCode = "com.example.tools.Hello hello = new com.example.tools.Hello(); "; // case-3
-
-		String pathChanged = replacement.replacePathName(path);
-		Assert.assertEquals("src/main/java/io/downgoon/tools/Hello.java", pathChanged);
-
+		
 		String importCodeChanged = replacement.replaceCodePack(importCode);
 		Assert.assertEquals("import io.downgoon.tools.Hello", importCodeChanged);
 
 		String inewCodeChanged = replacement.replaceCodePack(newCode);
 		Assert.assertEquals("io.downgoon.tools.Hello hello = new io.downgoon.tools.Hello(); ", inewCodeChanged);
 
+	}
+	
+	
+	private static boolean isWindowOS() {
+		return System.getProperty("os.name").toLowerCase().indexOf("window") > 0;
 	}
 
 	// @Test // TODO rare occurrence
