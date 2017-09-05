@@ -25,8 +25,9 @@ $ gbk2utf8        # converting from gbk2 to utf8
 Usage: Gbk2Utf8 <src-gbk-path> <dst-utf8-path> [include-extension (default 'java')]
 $ gbk2utf8 convert
 Usage: Gbk2Utf8 <src-gbk-path> <dst-utf8-path> [include-extension (default 'java')]
-$ gbk2utf8 pkgreanme   # package renaming
-Usage: Gbk2Utf8 <src-gbk-path> <dst-utf8-path> [include-extension (default 'java')]
+$ gbk2utf8 pkgrename # rename package
+Usage: PackageRename <src-path> <dst-path> <original-package-prefix> <alternative-package-prefix>
+Example: PackageRename ~/original ~/alternative com.example. io.downgoon
 $ gbk2utf8 version
 0.1.1
 ```
