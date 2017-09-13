@@ -91,6 +91,12 @@ see [https://github.com/downgoon/pkgmaker](https://github.com/downgoon/pkgmaker)
 
 ---
 
+## Use Cases
+
+- [taobao metaq](https://github.com/killme2008/Metamorphosis/issues/130)
+
+---
+
 ## 反馈问题
 
 如果您有不清楚的地方或更好的建议，请在**Issue**中给我们反馈。
