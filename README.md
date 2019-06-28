@@ -1,6 +1,6 @@
 # converting files encoding in some path from GBK to UTF8
 
-[![Join the chat at https://gitter.im/gbk2utf8/Lobby](https://badges.gitter.im/gbk2utf8/Lobby.svg)](https://gitter.im/gbk2utf8/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/gbk2utf8/Lobby](https://badges.gitter.im/gbk2utf8/Lobby.svg)](https://gitter.im/gbk2utf8/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![GitHub stars](https://img.shields.io/github/stars/downgoon/gbk2utf8.svg)](https://github.com/downgoon/gbk2utf8/stargazers) [![GitHub forks](https://img.shields.io/github/forks/downgoon/gbk2utf8.svg)](https://github.com/downgoon/gbk2utf8/network) 
 
 ## how to run
 
